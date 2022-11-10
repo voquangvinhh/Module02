@@ -9,7 +9,7 @@ public class Prime20 {
         int count =0;
         int coutSNT = 0;
         int N = 2;
-        for (N= 2; N < 1000; N++){
+        for (N= 2; N < 100; N++){
             if (coutSNT < numbers){
                 for (int j = 1; j <= N; j++){
                     if (N % j == 0){
