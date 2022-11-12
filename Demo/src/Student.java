@@ -1,9 +1,9 @@
 public class Student {
     public String name;
     public int age;
-    public String phoneNumber;
+    public String  phoneNumber;
 
-    public static String information = "Thong tin khach hang";
+    public static String information = "Thong tin hoc sinh";
     public static int total = 0;
 
 
