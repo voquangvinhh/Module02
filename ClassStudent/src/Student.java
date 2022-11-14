@@ -1,18 +1,14 @@
 public class Student {
-    private int rollno;
-    private String name;
-    private static String college = "BBDIT";
-
-    Student(int r, String n){
-        rollno = r;
-        name = n;
+    private String name = "John";
+    private String classes = "C02";
+    public Student(){
     }
 
-    static void change(){
-        college = "CODEGYM";
+    public void setName(String name) {
+        this.name = name;
     }
 
-    void display(){
-        System.out.println( rollno + " " + name + " " + college);
+    public void setClasses(String classes) {
+        this.classes = classes;
     }
 }

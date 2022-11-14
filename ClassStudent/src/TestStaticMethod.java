@@ -1,13 +1,26 @@
+import java.util.Scanner;
+
 public class TestStaticMethod {
     public static void main(String[] args) {
-        Student.change();
+//        Student.change();
+//
+//        Student s1 = new Student(111, "Hoang");
+//        Student s2 = new Student(222, "Khanh");
+//        Student s3 = new Student(333, "Nam");
+//
+//        s1.display();
+//        s2.display();
+//        s3.display();
 
-        Student s1 = new Student(111, "Hoang");
-        Student s2 = new Student(222, "Khanh");
-        Student s3 = new Student(333, "Nam");
+        Student st1 = new Student();
+        Student st2 = new Student();
 
-        s1.display();
-        s2.display();
-        s3.display();
+        st1.setName("");
+        st1.setClasses("");
+
+        st2.setName("");
+        st2.setClasses("");
+
+        System.out.println();
     }
 }
