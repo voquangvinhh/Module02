@@ -5,8 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/Animal/Animal.iml" filepath="$PROJECT_DIR$/Animal/Animal.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassCircle/ClassCircle.iml" filepath="$PROJECT_DIR$/ClassCircle/ClassCircle.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassStudent/ClassStudent.iml" filepath="$PROJECT_DIR$/ClassStudent/ClassStudent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Comparable/Comparable.iml" filepath="$PROJECT_DIR$/Comparable/Comparable.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeThua/KeThua.iml" filepath="$PROJECT_DIR$/KeThua/KeThua.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson-09/Lesson-09.iml" filepath="$PROJECT_DIR$/Lesson-09/Lesson-09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson-13/Lesson-13.iml" filepath="$PROJECT_DIR$/Lesson-13/Lesson-13.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module02.iml" filepath="$PROJECT_DIR$/Module02.iml" />
     </modules>
   </component>

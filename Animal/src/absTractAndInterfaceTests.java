@@ -1,6 +1,10 @@
 import animal.Animal;
 import animal.Tiger;
 import animal.Chicken;
+import Edible.Edible;
+import fruit.Fruit;
+import fruit.Apple;
+import fruit.Orange;
 
 
 public class absTractAndInterfaceTests {
@@ -11,5 +15,13 @@ public class absTractAndInterfaceTests {
         for (Animal animal : animals ){
             System.out.println(animal.makeSound());
         }
+
+        Fruit[] fruits = new Fruit[2];
+        fruits[0] = new Orange();
+        fruits[1] = new Apple();
+        for (Fruit fruit : fruits) {
+            System.out.println(fruit.howToEat());
+        }
     }
+
 }

@@ -12,4 +12,16 @@ public class Demo {
 //        System.out.println("Name" + Student.name);
 
     }
+    private static boolean isLeapYear(int year){
+        boolean isDivisible4 = year % 4 == 0;
+        if(isDivisible4){
+            if (year % 100 == 0){
+                if(year % 400 == 0)
+                    return true;
+            } else {
+                return true;
+            }
+        }
+        return false;
+    }
 }
